@@ -1,0 +1,29 @@
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-blog);
+  }
+  
+  .placement {
+    margin-bottom: 50px;
+    color: aliceblue;
+    font-family: 'CustomFont1';
+  }
+  
+  .partner-images {
+    display: flex;
+    justify-content: center; 
+    gap: 20px;
+  }
+  
+  .partner-images div {
+    flex: 1; 
+    max-width: 150px; 
+  }
+  
+  .partner-images img {
+    max-width: 100%;
+    height: auto;
+  }
+  
